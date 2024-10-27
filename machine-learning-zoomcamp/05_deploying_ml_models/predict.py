@@ -25,5 +25,6 @@ def predict():
     return jsonify(result)
 
 
+# this won't run if we use gunicorn -> gunicorn turns Flask into a WSGI app (production ready)
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=9696)
