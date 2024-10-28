@@ -2,7 +2,7 @@ import pickle
 
 from flask import Flask, jsonify, request
 
-model_file = "model1.bin"
+model_file = "model2.bin"
 vectorizer_file = "dv.bin"
 
 with open(model_file, "rb") as model_in:
