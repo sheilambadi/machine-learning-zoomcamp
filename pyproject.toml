@@ -16,6 +16,8 @@ kaggle = "^1.6.17"
 tqdm = "^4.66.5"
 flask = "^3.0.3"
 gunicorn = "^23.0.0"
+ipython = "^8.29.0"
+ipykernel = "^6.29.5"
 
 
 [tool.poetry.group.dev.dependencies]
